@@ -23,8 +23,8 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 
 ### ERD:
 ![alt text](assets/ERD.jpg)
-### W
-ireframes:
+
+### Wireframes:
 ![alt text](assets/WIREFRAMES.jpg)
 
 ### Link to application:
