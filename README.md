@@ -22,10 +22,10 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 [Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
 ### ERD:
-![alt text](https://github.com/Brian60657/talkNow/blob/master/ERD.jpg)
+![alt text](talkNow/assets/ERD.jpg)
 
 ### Wireframes:
-![alt text](https://github.com/Brian60657/talkNow/blob/master/WIREFRAMES.jpg)
+![alt text](talkNow/assets/WIREFRAMES.jpg)
 
 ### Link to application:
 - Coming Soon!
