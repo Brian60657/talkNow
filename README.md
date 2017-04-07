@@ -1,7 +1,7 @@
 # Talk Now
 
 ### Description:
-April is National Autism Awareness Month<br>
+April is National Autism Awareness Month!<br>
 
 Talk Now is a mobile application that helps Non-verbal Autistic people communicate. Users will be able to communicate through the use of simple words and pictures within well defined lists.  The application will help with instant communication as well as progressions through daily routines.<br>
 
@@ -20,12 +20,11 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 ### User stories:
 [Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
-### Wireframes:
-![alt text](https://github.com/Brian60657/talkNow/blob/master/WIREFRAMES.jpg)
-
-
 ### ERD:
 ![alt text](https://github.com/Brian60657/talkNow/blob/master/ERD.jpg)
+
+### Wireframes:
+![alt text](https://github.com/Brian60657/talkNow/blob/master/WIREFRAMES.jpg)
 
 ### Link to application:
 - Coming Soon!
