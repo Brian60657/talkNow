@@ -9,6 +9,7 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 
 ### Technologies used:
 - JavaScript
+- Xcode
 - Angular.js
 - HTML
 - CSS
