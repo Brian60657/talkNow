@@ -22,12 +22,10 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 
 ### Wireframes:
 ![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+
 
 ### ERD:
-![alt text]()
+![alt text](https://github.com/Brian60657/talkNow/blob/master/ERD.jpg)
 
 ### Link to application:
 - Coming Soon!
