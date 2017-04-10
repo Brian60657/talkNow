@@ -43,11 +43,11 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Want', id: 1 },
-    { title: 'Feel', id: 2 },
-    { title: 'Activity', id: 3 },
-    { title: 'Routine', id: 4 },
-    { title: 'Get Dressed', id: 5 },
+    { title: 'I Want', id: 1 },
+    { title: 'I Feel', id: 2 },
+    { title: 'My Activity', id: 3 },
+    { title: 'My Routine', id: 4 },
+    { title: 'Get Dressed', id: 5 }
     // { title: '', id: 6 }
   ];
 })
