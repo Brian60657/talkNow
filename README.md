@@ -1,4 +1,4 @@
-# Talk Now
+# talkNow
 
 ### Description:
 April is National Autism Awareness Month!<br>
@@ -11,6 +11,8 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 - JavaScript
 - Xcode
 - Angular.js
+- Node.js
+- Cordova
 - HTML
 - CSS
 - Ionic
