@@ -1,5 +1,7 @@
 <ion-view view-title="Task">
   <ion-content>
-    <h1>Task</h1>
+    <ion-list ng-repeat="playlist in playlistSet[id]">
+  <ion-item> {{playlist.task}} <br/> Picture: {{playlist.picture}}</ion-item>
+ </ion-list>
   </ion-content>
 </ion-view>

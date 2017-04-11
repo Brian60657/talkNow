@@ -53,4 +53,33 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+  $scope.playlistSet = [
+    [
+      { task: 'Drink', picture: ' '},
+      { task: 'Sandwich', picture: ' '},
+      { task: 'Snack', picture: ' '}
+    ],
+    [
+      { task: 'Happy', picture: ' '},
+      { task: 'Sad', picture: ' '},
+      { task: 'Angry', picture: ' '}
+    ],
+    [
+      { task: 'Computer time', picture: ' '},
+      { task: 'Arts & Crafts time', picture: ' '},
+      { task: 'Module Time', picture: ' '}
+    ],
+    [
+      { task: 'Going to Work', picture: ' '},
+      { task: 'Leaving', picture: ' '},
+      { task: 'Eating Lunch', picture: ' '}
+    ],
+    [
+      { task: 'Underwear', picture: ' '},
+      { task: 'Pants', picture: ' '},
+      { task: 'Shirt', picture: ' '}
+    ]
+
+  ];
+  $scope.id = $stateParams.playlistId;
 });

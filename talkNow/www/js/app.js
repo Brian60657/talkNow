@@ -22,6 +22,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
+.controller('PlaylistsCtrl', function($scope) {
+  $scope.playlists = [
+    { title: 'I Want', id: 0 },
+    { title: 'I Feel', id: 1 },
+    { title: 'My Activity', id: 2 },
+    { title: 'My Routine', id: 3 },
+    { title: 'Get Dressed', id: 4 }
+  ];
+})
+
+
+
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
@@ -59,6 +71,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -68,6 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
 
   .state('app.single', {
     url: '/playlists/:playlistId',
