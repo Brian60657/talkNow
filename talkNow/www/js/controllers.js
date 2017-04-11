@@ -41,45 +41,55 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'I Want', id: 1 },
-    { title: 'I Feel', id: 2 },
-    { title: 'My Activity', id: 3 },
-    { title: 'My Routine', id: 4 },
-    { title: 'Get Dressed', id: 5 }
-    // { title: '', id: 6 }
-  ];
+// .controller('PlaylistsCtrl', function($scope) {
+//   $scope.playlists = [
+//     { title: 'I Want', id: 1 },
+//     { title: 'I Feel', id: 2 },
+//     { title: 'My Activity', id: 3 },
+//     { title: 'My Routine', id: 4 },
+//     { title: 'Get Dressed', id: 5 }
+//     // { title: '', id: 6 }
+//   ];
+// })
+//
+// .controller('PlaylistCtrl', function($scope, $stateParams) {
+//   $scope.playlistSet = [
+//     [
+//       { task: 'Drink', picture: ' '},
+//       { task: 'Sandwich', picture: ' '},
+//       { task: 'Snack', picture: ' '}
+//     ],
+//     [
+//       { task: 'Happy', picture: ' '},
+//       { task: 'Sad', picture: ' '},
+//       { task: 'Angry', picture: ' '}
+//     ],
+//     [
+//       { task: 'Computer time', picture: ' '},
+//       { task: 'Arts & Crafts time', picture: ' '},
+//       { task: 'Module Time', picture: ' '}
+//     ],
+//     [
+//       { task: 'Going to Work', picture: ' '},
+//       { task: 'Leaving', picture: ' '},
+//       { task: 'Eating Lunch', picture: ' '}
+//     ],
+//     [
+//       { task: 'Underwear', picture: ' '},
+//       { task: 'Pants', picture: ' '},
+//       { task: 'Shirt', picture: ' '}
+//     ]
+//
+//   ];
+//   $scope.id = $stateParams.playlistId;
+// });
+
+.controller('PlaylistsCtrl', function($scope, $http) {
+
+  $scope.playlists = [];
+  $http.get("http://bowties.herokuapp.com/api/bowties", { cache: true })
+    .then(function(response){
+      $scope.playlists = response.data
+    });
+
 })
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-  $scope.playlistSet = [
-    [
-      { task: 'Drink', picture: ' '},
-      { task: 'Sandwich', picture: ' '},
-      { task: 'Snack', picture: ' '}
-    ],
-    [
-      { task: 'Happy', picture: ' '},
-      { task: 'Sad', picture: ' '},
-      { task: 'Angry', picture: ' '}
-    ],
-    [
-      { task: 'Computer time', picture: ' '},
-      { task: 'Arts & Crafts time', picture: ' '},
-      { task: 'Module Time', picture: ' '}
-    ],
-    [
-      { task: 'Going to Work', picture: ' '},
-      { task: 'Leaving', picture: ' '},
-      { task: 'Eating Lunch', picture: ' '}
-    ],
-    [
-      { task: 'Underwear', picture: ' '},
-      { task: 'Pants', picture: ' '},
-      { task: 'Shirt', picture: ' '}
-    ]
-
-  ];
-  $scope.id = $stateParams.playlistId;
-});

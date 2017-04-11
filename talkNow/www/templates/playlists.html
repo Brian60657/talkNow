@@ -1,4 +1,4 @@
-<ion-view view-title="Category">
+<!-- <ion-view view-title="Category">
   <ion-content>
     <ion-list>
       <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
@@ -6,4 +6,50 @@
       </ion-item>
     </ion-list>
   </ion-content>
+</ion-view> -->
+
+<ion-view view-title="Talk Now">
+  <ion-content>
+    <div class="list">
+      <a ng-repeat="playlist in playlists" class="item item-thumbnail-left" href="#">
+        <img ng-src={{playlist.image_url}}>
+        <b>Category:</b> {{playlist.category}}<br>
+        <b>Task:</b> {{playlist.task}}
+      </a>
+    </div>
+  </ion-content>
 </ion-view>
+
+
+[
+    {
+      id: 11,
+      category: "want",
+      task: "sandwich",
+      image_url: "http://www.clipartkid.com/images/37/half-sandwich-clipart-clipart-panda-free-clipart-images-dloE0u-clipart.png"
+    },
+    {
+      id: 12,
+      category: "feel",
+      task: "happy",
+      image_url: "https://img.clipartfest.com/3573e698ec9122e2ed96292810045ac2_cartoon-happy-faces-clipart-happy-cartoon-faces-clip-art_1172-1172.jpeg"
+    },
+    {
+      id: 13,
+      category: "activity",
+      task: "computers",
+      image_url: "http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-computer-3f.gif"
+    },
+    {
+      id: 14,
+      category: "routine",
+      task: "work",
+      image_url: "http://www.1designshop.com/wp-content/uploads/2016/01/1dsp-20160104-business-001.png"
+    },
+    {
+      id: 15,
+      category: "dressed",
+      task: "shirts",
+      image_url: "http://www.clipartbest.com/cliparts/RTG/y6n/RTGy6nLkc.png"
+    }
+  ]

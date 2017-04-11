@@ -22,15 +22,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'I Want', id: 0 },
-    { title: 'I Feel', id: 1 },
-    { title: 'My Activity', id: 2 },
-    { title: 'My Routine', id: 3 },
-    { title: 'Get Dressed', id: 4 }
-  ];
-})
+// .controller('PlaylistsCtrl', function($scope) {
+//   $scope.playlists = [
+//     { title: 'I Want', id: 0 },
+//     { title: 'I Feel', id: 1 },
+//     { title: 'My Activity', id: 2 },
+//     { title: 'My Routine', id: 3 },
+//     { title: 'Get Dressed', id: 4 }
+//   ];
+// })
 
 
 
