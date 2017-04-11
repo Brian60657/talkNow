@@ -5,6 +5,7 @@ var express = require('express'),
   bodyParser = require('body-parser'),
   app = express(),
   port = process.env.PORT || 3000
+  db = process.env.MONGODB_URI || 'mongodb://localhost/tasks'
 
 var mongoose = require('mongoose')
 
