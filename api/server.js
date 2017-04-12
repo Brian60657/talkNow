@@ -9,7 +9,7 @@ var express = require('express'),
 
 var mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost/tasks')
+mongoose.connect(db)
 
 var routes = require('./config/routes')
 
@@ -19,7 +19,7 @@ app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.use(routes)
+app.use('/', routes)
 
 app.listen(port, function() {
   console.log('Port', port, 'is the bombdiggity!')
