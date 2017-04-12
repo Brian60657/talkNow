@@ -51,7 +51,8 @@ angular.module('starter.controllers', [])
         cache: true
       })
       .then(function(response) {
-        $scope.playlists = response.data
+        $scope.playlists = response.data.tasks
+        // console.log($scope.playlists)
       });
 
   })
