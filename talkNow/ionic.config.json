@@ -1,4 +1,13 @@
 {
   "name": "talkNow",
-  "app_id": "ef336eda"
+  "app_id": "ef336eda",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
