@@ -59,7 +59,7 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', function($scope, $http) {
 
   $scope.playlists = [];
-  $http.get(" https://pacific-tundra-10462.herokuapp.com/", { cache: true })
+  $http.get(" https://pacific-tundra-10462.herokuapp.com/tasks", { cache: true })
     .then(function(response){
       $scope.playlists = response.data
     });
