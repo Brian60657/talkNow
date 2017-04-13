@@ -5681,7 +5681,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
  * --------------------------------------------------
  */
 .item {
-  border-color: #ddd;
+  border-color: purple;
   background-color: lightblue;
   color: #444;
   position: relative;
