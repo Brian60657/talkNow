@@ -21,7 +21,9 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 [Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
 ### ERD:
-![alt text](assets/ERD.jpg)
+![alt text](assets/TalkNow.png)
+![alt text](assets/About.png)
+![alt text](assets/Instructions.png)
 
 ### Wireframes:
 ![alt text](assets/WIREFRAMES.jpg)
