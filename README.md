@@ -9,16 +9,14 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 
 ### Technologies used:
 - JavaScript
-- Xcode
-- Angular.js
-- Node.js
-- Cordova
 - HTML
 - CSS
 - Ionic
+- MEAN
+- Postman
 - Heroku
 - Trello
-- Git / GitHub
+- GitHub
 
 ### User stories:
 [Trello](https://trello.com/b/lw7A83Q7/talk-now)
@@ -33,10 +31,18 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 - Coming Soon!
 
 ### Approach taken:
-- Coming Soon!
+1. Setup ionic sidemenu
+2. Created backend API
+3. Seeded database with basic data
+4. Modified states for desired layout
+5. Styled application and added text
 
 ### Installation instructions:
 - Coming Soon!
 
 ### Unsolved problems and next steps:
-- Coming Soon!
+- Matching icons library
+- Seed more date then create category menu
+- Create additional steps menu for certain categories
+- Implement awards page from my stretch goals options
+- Learn more about SASS
