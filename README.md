@@ -1,4 +1,4 @@
-# talkNow
+# Talk Now
 
 ### Description:
 April is National Autism Awareness Month!<br>
@@ -16,9 +16,8 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 ![alt text](assets/Trello.png)<br>
 ![alt text](assets/GitHub.png)<br>
 
-
 ### User stories:
-[talkNow User Stories on Trello](https://trello.com/b/lw7A83Q7/talk-now)
+[Talk Now User Stories on Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
 ### Wireframes:
 ![alt text](assets/TalkNow.png)
@@ -45,7 +44,6 @@ Front-End: Coming soon to App Store!
 3. Install ionic -> Terminal "npm install -g cordova ionic"
 4. Inside TalkNow directory -> Terminal "ionic upload"
 5. Open Ionic View -> TalkNow application -> View App
-
 
 ### Unsolved problems and next steps:
 - Matching icons library
