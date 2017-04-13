@@ -8,13 +8,13 @@ Talk Now is a mobile application that helps Non-verbal Autistic people communica
 User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapist
 
 ### Technologies used:
-![alt text](assets/JS-HTML-CSS.png)
-![alt text](assets/ionic.png)
-![alt text](assets/MEAN.png)
-![alt text](assets/Postman.png)
-![alt text](assets/Heroku.png)
-![alt text](assets/Trello.png)
-![alt text](assets/GitHub.png)
+![alt text](assets/JS-HTML-CSS.png)<br>
+![alt text](assets/ionic.png)<br>
+![alt text](assets/MEAN.png)<br>
+![alt text](assets/Postman.png)<br>
+![alt text](assets/Heroku.png)<br>
+![alt text](assets/Trello.png)<br>
+![alt text](assets/GitHub.png)<br>
 
 
 ### User stories:
