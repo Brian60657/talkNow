@@ -3,9 +3,9 @@
     <div class="list">
       <ion-radio ng-repeat="playlist in playlists" class="item item-thumbnail-left" href="#">
         <img ng-src={{playlist.image_url}}>
-        <b>Category:</b> {{playlist.category}}<br>
-        <b>Task:</b> {{playlist.task}}
-      </a>
+        <br>
+        <b> {{playlist.category}} : </b>
+        <b> {{playlist.task}}</b>
     </div>
   </ion-content>
 </ion-view>
