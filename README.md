@@ -28,7 +28,8 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 ![alt text](assets/WIREFRAMES.jpg)
 
 ### Link to application:
-- Coming Soon!
+Back-End: https://pacific-tundra-10462.herokuapp.com/tasks
+Front-End: Coming soon to App Store!
 
 ### Approach taken:
 1. Setup ionic sidemenu
@@ -38,7 +39,12 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 5. Styled application and added text
 
 ### Installation instructions:
-- Coming Soon!
+1. Download Ionic View -> App Store
+2. Download TalkNow directory -> GitHub
+3. Install ionic -> Terminal "npm install -g cordova ionic"
+4. Inside TalkNow directory -> Terminal "ionic upload"
+5. Open Ionic View -> TalkNow application -> View App
+
 
 ### Unsolved problems and next steps:
 - Matching icons library
@@ -46,3 +52,6 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 - Create additional steps menu for certain categories
 - Implement awards page from my stretch goals options
 - Learn more about SASS
+
+### Known bugs:
+- Currently clean!
