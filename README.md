@@ -18,7 +18,7 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 
 
 ### User stories:
-[Trello](https://trello.com/b/lw7A83Q7/talk-now)
+[talkNow User Stories on Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
 ### Wireframes:
 ![alt text](assets/TalkNow.png)
@@ -49,7 +49,7 @@ Front-End: Coming soon to App Store!
 
 ### Unsolved problems and next steps:
 - Matching icons library
-- Seed more date then create category menu
+- Seed more data then create category menu
 - Create additional steps menu for certain categories
 - Implement awards page from my stretch goals options
 - Learn more about SASS
