@@ -20,13 +20,13 @@ User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapis
 ### User stories:
 [Trello](https://trello.com/b/lw7A83Q7/talk-now)
 
-### ERD:
+### Wireframes:
 ![alt text](assets/TalkNow.png)
 ![alt text](assets/About.png)
 ![alt text](assets/Instructions.png)
 
-### Wireframes:
-![alt text](assets/WIREFRAMES.jpg)
+### ERD:
+![alt text](assets/ERD.png)
 
 ### Link to application:
 Back-End: https://pacific-tundra-10462.herokuapp.com/tasks
