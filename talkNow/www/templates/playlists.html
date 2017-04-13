@@ -1,7 +1,7 @@
 <ion-view view-title="Talk Now">
   <ion-content>
     <div class="list">
-      <a ng-repeat="playlist in playlists" class="item item-thumbnail-left" href="#">
+      <ion-radio ng-repeat="playlist in playlists" class="item item-thumbnail-left" href="#">
         <img ng-src={{playlist.image_url}}>
         <b>Category:</b> {{playlist.category}}<br>
         <b>Task:</b> {{playlist.task}}
