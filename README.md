@@ -5,8 +5,6 @@ April is National Autism Awareness Month!<br>
 
 Talk Now is a mobile application that helps Non-verbal Autistic people communicate. Users will be able to communicate through the use of simple words and pictures within well defined lists.  The application will help with instant communication as well as progressions through daily routines.<br>
 
-User Stories formed through the guidance of Joe Werderitch MS, Behavior Therapist
-
 ### Technologies used:
 ![alt text](assets/JS-HTML-CSS.png)<br>
 ![alt text](assets/ionic.png)<br>
